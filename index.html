@@ -6,6 +6,9 @@
   <title>Document</title>
   <script src='js/index.js'></script>
   <link rel='stylesheet' href='index.css'/>
+  <link rel='stylesheet' href='./Styles/cardCSS.css'/>
+  <link rel='stylesheet' href='./Styles/styles.css'/>
+
 </head>
 <body>
   <div id='main'>
@@ -14,19 +17,26 @@
 
     <form id='github-form'>
       <input id='search' type='text' name='search'>
-      <input type='submit' name='submit'/>
+      <!-- <input id="submit" type='submit' name='Search Github user'/> -->
+      <button id="searchUsername" type='submit' name='Search Github user'>Search GH user</button>
+      <button id="searchUserRepo" type='submit' name='Search Github user'>Search GH repo</button>
     </form>
+    
 
-    <div id='github-container'>
-      <ul id='user-list'>
+    <!-- CARD HTML -->
+    <section id="articles" class="articles">
+     
+    </section>
 
-      </ul>
+    <!-- USER REPOS -->
+   <div id="userRepos">
 
-      <ul id='repos-list'>
+   </div>
 
-      </ul>
-    </div>
 
+  
+    
+    
   </div>
 
 </body>
